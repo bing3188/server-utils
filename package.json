@@ -24,7 +24,8 @@
   "dependencies": {
     "lodash": "^4.17.11",
     "generic-pool": "^3.4.2",
-    "amqplib": "^0.5.3"
+    "amqplib": "^0.5.3",
+    "ws": "^5.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
