@@ -13,7 +13,6 @@ const setLogger = appointLogger => {
   websocketUtil.setLogger(appointLogger)
   authority.setLogger(appointLogger)
   scheduleJob.setLogger(appointLogger)
-  mongoClient.setLogger(appointLogger)
   mysqlClient.setLogger(appointLogger)
 }
 
