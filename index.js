@@ -6,7 +6,6 @@ const scheduleJob = require('./lib/scheduleJob')
 
 const setLogger = appointLogger => {
     rabbitmqClinet.setLogger(appointLogger)
-    redisClient.setLogger(appointLogger)
     websocketUtil.setLogger(appointLogger)
     authority.setLogger(appointLogger)
     scheduleJob.setLogger(appointLogger)
