@@ -4,6 +4,7 @@ const redisClient = require('./lib/redisClient')
 const authority = require('./lib/authority')
 const scheduleJob = require('./lib/scheduleJob')
 const smsClient = require('./lib/smsClient')
+const fileUtil = require('./lib/fileUtil')
 
 const setLogger = appointLogger => {
   rabbitmqClinet.setLogger(appointLogger)
@@ -11,6 +12,7 @@ const setLogger = appointLogger => {
   authority.setLogger(appointLogger)
   scheduleJob.setLogger(appointLogger)
   smsClient.setLogger(appointLogger)
+  fileUtil.setLogger(appointLogger)
 }
 
 module.exports = {
@@ -20,5 +22,6 @@ module.exports = {
   redisClient: redisClient,
   scheduleJob: scheduleJob,
   websocketUtil: websocketUtil,
-  smsClient: smsClient
+  smsClient: smsClient,
+  fileUtil: fileUtil
 }
