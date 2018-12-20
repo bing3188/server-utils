@@ -5,6 +5,7 @@ const authority = require('./lib/authority')
 const scheduleJob = require('./lib/scheduleJob')
 const smsClient = require('./lib/smsClient')
 const fileUtil = require('./lib/fileUtil')
+const mongoClient = require('./lib/mongoClient')
 
 const setLogger = appointLogger => {
   rabbitmqClinet.setLogger(appointLogger)
@@ -23,5 +24,6 @@ module.exports = {
   scheduleJob: scheduleJob,
   websocketUtil: websocketUtil,
   smsClient: smsClient,
-  fileUtil: fileUtil
+  fileUtil: fileUtil,
+  mongoClient: mongoClient
 }
