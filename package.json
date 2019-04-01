@@ -1,4 +1,4 @@
-{
+server-utils{
   "name": "server-utils",
   "version": "1.0.0",
   "description": "server utils for IMCC Server",
