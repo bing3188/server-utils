@@ -7,10 +7,10 @@
     "WebSockets",
     "real-time"
   ],
-  "homepage": "https://github.com/LiqunHu/server-utils",
-  "bugs": "https://github.com/LiqunHu/server-utils/issues",
-  "repository": "LiqunHu/server-utils",
-  "author": "huliqun <huliqun@goooku.com>",
+  "homepage": "https://github.com/bing3188/server-utils",
+  "bugs": "https://github.com/bing3188/server-utils/issues",
+  "repository": "bing3188/server-utils",
+  "author": "bing <bing@goooku.com>",
   "license": "MIT",
   "main": "index.js",
   "files": [
